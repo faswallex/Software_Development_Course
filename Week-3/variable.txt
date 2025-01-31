@@ -1,0 +1,6 @@
+Assignment:
+Declare variables to store the following information:
+Your age (integer)
+Your height in meters (float)
+Your name (string)
+Print each variable along with a descriptive message to the console.
