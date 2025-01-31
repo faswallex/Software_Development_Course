@@ -1,5 +1,0 @@
-Assignment:WEEK2
-
-Write a Python script that prints "Hello, world!" to the console.
-Use comments to add a brief description of each line of code in your script.
-   
