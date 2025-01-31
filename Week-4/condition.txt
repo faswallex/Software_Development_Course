@@ -1,0 +1,5 @@
+Assignment:
+
+Write a Python script that takes user input for their age.
+If the age is greater than or equal to 18, print "You are an adult." Otherwise, print "You are a minor."
+Use a loop to prompt the user to enter their age until a valid input is provided.

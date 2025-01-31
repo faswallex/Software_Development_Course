@@ -1,0 +1,4 @@
+Assignment:
+
+Write a Python script that generates a multiplication table for a given number. Prompt the user to enter the number.
+Use a loop to print the multiplication table up to 10 times the entered number.
