@@ -1,0 +1,5 @@
+Assignment:
+
+Solve the following problem using Python:
+Write a program to calculate the area of a rectangle given its length and width.
+Prompt the user to enter the length and width as inputs.
