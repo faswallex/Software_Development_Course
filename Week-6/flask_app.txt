@@ -1,0 +1,10 @@
+Assignment:
+Set up a basic Flask application that displays "Hello, Flask!" when accessed in the browser. Follow these steps:
+
+Install Flask if you haven’t already (pip install flask).
+Create a file named app.py and write a basic Flask application that:
+Imports Flask.
+Creates a Flask app instance.
+Defines a route (/) that returns "Hello, Flask!".
+Runs the app only if executed directly.
+Run the Flask app and verify it works by opening http://127.0.0.1:5000/ in your browser.
