@@ -1,0 +1,9 @@
+Assignment:
+Solve the following problem using Flask:
+
+Create a Flask application that contains three routes:
+
+/ → Displays "Welcome to My Flask App!"
+/about → Displays "This is the About Page"
+/contact → Displays "Contact us at contact@example.com"
+Run the Flask app and test the routes.
