@@ -13,4 +13,5 @@ def about():
 def contact():
     return "Contact us at contact@example.com"
 
-if __name__ == '__main__':    app.run(debug=True)
+if __name__ == '__main__':
+    app.run(debug=True)
