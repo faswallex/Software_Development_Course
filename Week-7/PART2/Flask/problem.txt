@@ -1,0 +1,8 @@
+Solve the following problem using Flask:
+
+Create a Flask application that supports dynamic URL routing:
+
+/user/<username> → Displays "Hello, <username>!"
+/square/<int:num> → Displays "The square of <num> is <result>"
+/post/<int:post_id> → Displays "Viewing Post <post_id>"
+Ensure that numeric values are properly handled and displayed.
