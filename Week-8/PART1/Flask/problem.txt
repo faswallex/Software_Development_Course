@@ -1,0 +1,10 @@
+Assignment:
+Solve the following problem using Flask:
+
+Create a Flask application that includes a form where users can enter their name.
+When the form is submitted, the app should display a personalized greeting such as:
+"Hello, [name]!"
+Requirements:
+Use the GET and POST methods to handle form submission.
+Use request.form.get() to retrieve user input.
+Use a simple HTML form with an input field and a submit button.
