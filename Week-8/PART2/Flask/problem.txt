@@ -1,0 +1,13 @@
+Solve the following problem using Flask and WTForms:
+
+Create a Flask application that includes a login form with fields for:
+Username
+Password
+When the form is submitted:
+Validate that both fields are filled.
+If the username is "admin" and the password is "password", display "Login successful!"
+Otherwise, display "Invalid credentials. Please try again."
+Requirements:
+Use Flask-WTF to create the form.
+Use validate_on_submit() to check form submission.
+Use Flask’s flash() function to show error messages.
