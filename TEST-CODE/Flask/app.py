@@ -47,6 +47,8 @@
 #     app.run(debug=True)
     
 # WEEK8 SAMPLE
+
+# NOT WORKING
 from flask import Flask, render_template, request
 app = Flask(__name__)
 
@@ -74,5 +76,20 @@ def hello():
 
 if __name__ == '__main__':
     app.run(debug=True)
-    
-    
+
+# WEEK8 SAMPLE
+
+# WORKING 
+# from flask import Flask, render_template, request
+
+# app = Flask(__name__)
+
+# @app.route('/', methods=['GET', 'POST'])
+# def index():
+#     if request.method == 'POST':
+#         name = request.form['name']  # Get form data
+#         return render_template('hello.html', name=name)
+#     return render_template('index.html')
+
+# if __name__ == '__main__':
+#     app.run(debug=True)
