@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display all users</title>
+</head>
+<body>
+    <h1>All users</h1>
+    <table>
+        <thead>
+            <tr>
+                <th><h3>Name</h3></th>
+                <th><h3>Age</h3></th>
+                <th><h3>Email</h3></th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for users in users %}
+            <tr>
+                <td>{{ users.name}}</td>
+                <td>{{ users.age}}</td>
+                <td>{{ users.email_address}}</td>
+            </tr>
+            {% endfor %}
+
+        </tbody>
+    </table>
+    <a href="{{ url_for('home')}}">Back Home</a>
+</body>
+</html>
