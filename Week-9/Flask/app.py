@@ -63,6 +63,35 @@ def users():
     all_users = User.query.all()
     return render_template('display.html', users=all_users)
 
+
+
+# CLEAR ALL USERS
+    """
+    This function clears all user records from the database.
+
+    - It uses SQLAlchemy to delete all entries in the User table.
+    - If the deletion is successful, the database changes are committed.
+    - If an error occurs, the transaction is rolled back to prevent partial deletions.
+    - After clearing the users, it redirects back to the "/users" page.
+
+    Returns:
+        A redirect to the '/users' route to refresh the page after clearing the data.
+    """
+
+@app.route('/clear_users', methods=['POST'])  # Defines a new route "/clear_users" that only accepts POST requests.
+def clear_users():
+    try:
+        db.session.query(User).delete()  # Deletes all records from the User table.
+        db.session.commit()  # Commits the changes to the database.
+    except Exception as e:  
+        db.session.rollback()  # Rolls back any changes in case of an error.
+        print(f"Error clearing users: {e}")  # Prints the error message for debugging.
+    
+    return redirect(url_for('users'))  # Redirects back to the '/users' page to show an empty user list.
+
+
+
+
 if __name__ == '__main__':
     app.run(debug=True)
     
